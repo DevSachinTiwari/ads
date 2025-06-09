@@ -1,6 +1,6 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: #023d63;
   width: 100%;
   z-index: 2;
   position: fixed;
@@ -51,7 +51,7 @@ header nav p {
 }
 
 header nav a:any-link {
-  color: currentcolor;
+  color: #ffffff;
 }
 
 /* hamburger */
@@ -138,9 +138,9 @@ header nav[aria-expanded='true'] .nav-hamburger-icon::after {
 /* brand */
 header .nav-brand {
   grid-area: brand;
-  flex-basis: 128px;
+  flex-basis: 170px;
   font-size: var(--heading-font-size-s);
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1;
 }
 
